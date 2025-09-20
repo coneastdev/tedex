@@ -1,0 +1,28 @@
+#my-video {
+    width: 95%;
+    height: 95vh;
+    margin: 2.5vh;
+}
+
+body {
+    background: linear-gradient(to left top,#000, #111);
+    text-align: center;
+    margin: 0;
+}
+
+#shuffleBtn {
+    position: absolute;
+    width: 8vh;
+    height: 8vh;
+    background-color: green;
+    border-radius: 100%;
+    z-index: 100;
+    left: 91vw;
+    top: 85vh;
+    opacity: 0.5;
+    border: solid darkgreen 1px;
+}
+
+#shuffleBtn:hover {
+    opacity: 1;
+}
