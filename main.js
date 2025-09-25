@@ -11,8 +11,6 @@ function genVid() {
 // randomly generates video so you don't get the placeholder vid every time
 window.onload = function(){
     videojs.getPlayer("my-video").ready(function(){
-        setTimeout(() => {
-            genVid()
-        }, 100);
+        genVid()
     });
 };
