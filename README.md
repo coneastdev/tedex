@@ -1,5 +1,5 @@
 ### tedex
-tedex or ted index is a tool for watching random ted talks. It is best to use the github page (insert link here).
+tedex or ted index is a tool for watching random ted talks. It is best to use the github page https://coneastdev.github.io/tedex/.
 
 NOTE: the data set is from 9 years ago
 
