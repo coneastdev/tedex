@@ -3,6 +3,7 @@ function genVid() {
     vid = Math.round(Math.random() * tedTalks.length);
     videojs.getPlayer("my-video").poster(tedTalks[vid][0]);
     videojs.getPlayer("my-video").src({type: 'video/mp4', src: tedTalks[vid][1]});
+    document.getElementById("title").innerText = tedTalks[vid][1].slice(30)
 }
 
 window.onload = function(){
